@@ -1,0 +1,23 @@
+{
+  "name": "induccioninbursa",
+  "description": "En este repositorio se guardarán los cambios de nuestro proyecto de induccion de Inbursa",
+  "main": "index.js",
+  "authors": [
+    "jdelangel <jdelangel@mopega.com.mx>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.5"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
