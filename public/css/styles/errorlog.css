@@ -1,0 +1,80 @@
+h1 {
+    padding: 60px;
+}
+
+img {
+    width: 50%;
+    margin: auto;
+}
+
+#formulario{
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+form{
+    padding: 30px;
+    margin: 10px 0;
+}
+
+#pad{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+#buttonForm{
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+input[required],select{
+    box-shadow: 0 0 5px green;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+header{
+    background-image: linear-gradient(#00b3ee, #baa1ff);
+}
+
+#divform{
+    padding-top: 20px;
+}
+
+/*#cuer{*/
+/*background-image: linear-gradient(#baa1ff, #ee1021);*/
+/*}*/
+
+/*#foot{*/
+/*background: #ee1021;*/
+/*}*/
+
+#errorM{
+    border-radius: 20px;
+    background-color: #d92a2e;
+    color: #ffff61;
+}
+
+#errM{
+    padding: 10px;
+}
+
+#titleLog{
+    padding-top: 30px;
+}
+
+#logbackground{
+
+    margin: 10px 0;
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
