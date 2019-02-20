@@ -18,33 +18,23 @@
 
 </head>
 <body class="fondo">
-<!--<div class="container">-->
-
-<!--cabecera-->
 <header>
-    <div class="row cabecera" >
-        <div class="col-md-12"><br></div>
-    </div>
-    <div class="row cabecera">
-        <div class="col-md-2 "><br></div>
-        <div class="col-md-7 "><img  id="logoNigromante" class="img-responsive"  src="../Img/logo.png"></div>
-        <div class="col-md-3" ><img class="img-responsive" id="parquita" src="../Img/parquita.jpg"></div>
-    </div>
-    <div class="row cabecera" >
-        <div class="col-md-12"><br></div>
-    </div>
-
-
     <!--Menu barra de navegacion-->
-    <nav class="navbar navbar" id="menu">
-        <div class="container-fluid">
+    <nav class="navbar "  id="menu">
+        <!--cabecera del menu de navegacion-->
+        <div class="col-md-12" id="black">
+            <div class="col-md-2 "><br></div>
+            <div class="col-md-7 "><img  id="logoNigromante" class="img-responsive"  src="../Img/logo.png"></div>
+            <div class="col-md-3" ><img class="img-responsive" id="parquita" src="../Img/parquita.jpg"></div>
+        </div>
+        <div class="control-label" id="centrado">
             <ul class="nav navbar-nav">
                 <li class="active"><a>Principal</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Publicaciones <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/revistas">Revistas</a></li>
-                        <li><a href="#">Folletos</a></li>
-                        <li><a href="#">Tripticos</a></li>
+                        <li><a href="/folletos">Folletos</a></li>
+                        <li><a href="/tripticos">Tripticos</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Fotos<span class="caret"></span></a>
@@ -53,7 +43,7 @@
                         <li><a href="/memes">Memes</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Videos</a></li>
+                <li><a href="/videos">Videos</a></li>
                 <li><a href="/servicioSocial">Servicio social</a></li>
                 <li><a href="/somos">Acerca de Nosotros</a></li>
             </ul>
@@ -61,9 +51,10 @@
     </nav>
 </header>
 
+
 <!--divicion derecha-->
 <!--enlace facebook-->
-<div class="row" align="center" >
+<div align="center" >
     <div class="col-md-3">
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -74,7 +65,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-page" data-href="https://www.facebook.com/NigromanteFI/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NigromanteFI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NigromanteFI/">Nigromante - Revista DCSyH FI  UNAM</a></blockquote></div>
-    <!--imagenes-->
+        <!--imagenes-->
         <div id="paddup">
             <a title="trabajo" href=""><img  id="Trabajo" class="img-responsive"  src="../Img/trabajos.jpg"></a>
         </div>
@@ -87,9 +78,8 @@
     <!--divicion central-->
     <!--Issuu-------------------------->
     <div class="col-md-6" align="center">
-        <div data-configid = "25190270/67875259" class="issuuembed"> </div>
+        <div data-configid = "251902770/67467699" class="issuuembed"> </div>
         <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-
         <!--comentarios facebook------------------------------------------------------------>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -143,9 +133,8 @@
             </div>
         </div>
 
-
         <div id="paddup">
-            <img  id="redes" class="img-responsive" src="../Img/redes.png">
+            <img  id="Trabajo" class="img-responsive" src="../Img/redes.png">
 
         </div>
 
@@ -156,19 +145,10 @@
             <a href="https://www.youtube.com/channel/UC8uaEW5a9bGHh7ESQFH3_xw" class="youtube"><i class="fa fa-youtube"></i></a>
         </div>
 
-        <div id="paddup">
-        <img class="img-responsive" src="../Img/34_Enero_2019.png" id="Enero 2019" alt="Enero 2019" >
-        </div>
-
     </div>
-
 </div>
 
-
-
-
-
-<footer id="footer">
+<footer class="col-md-12" id="footer">
     <div>
         <div id="padfoot">
             <h4> Todos los derechos reservados © 1999 - 2019 / Facultad de Ingeniería/UNAM/ </h4>

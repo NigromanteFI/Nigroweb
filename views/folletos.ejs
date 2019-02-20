@@ -16,36 +16,26 @@
 
 </head>
 <body class="fondo">
-<!--<div class="container">-->
-
-<!--cabecera-->
 <header>
-    <div class="row cabecera" >
-        <div class="col-md-12"><br></div>
-    </div>
-    <div class="row cabecera">
-        <div class="col-md-2 "><br></div>
-        <div class="col-md-7 "><img  id="logoNigromante" class="img-responsive"  src="../Img/logo.png"></div>
-        <div class="col-md-3" ><img class="img-responsive" id="parquita" src="../Img/parquita.jpg"></div>
-    </div>
-    <div class="row cabecera" >
-        <div class="col-md-12"><br></div>
-    </div>
-
-
     <!--Menu barra de navegacion-->
-    <nav class="navbar navbar" id="menu">
-        <div class="container-fluid">
+    <nav class="navbar "  id="menu">
+        <!--cabecera del menu de navegacion-->
+        <div class="col-md-12" id="black">
+            <div class="col-md-2 "><br></div>
+            <div class="col-md-7 "><img  id="logoNigromante" class="img-responsive"  src="../Img/logo.png"></div>
+            <div class="col-md-3" ><img class="img-responsive" id="parquita" src="../Img/parquita.jpg"></div>
+        </div>
+        <div class="control-label" id="centrado">
             <ul class="nav navbar-nav">
-                <li ><a href="/">Principal</a></li>
+                <li class="active"><a>Principal</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Publicaciones <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/">Revistas</a></li>
-                        <li><a href="/">Folletos</a></li>
-                        <li><a href="/">Tripticos</a></li>
+                        <li><a href="/revistas">Revistas</a></li>
+                        <li><a href="/folletos">Folletos</a></li>
+                        <li><a href="/tripticos">Tripticos</a></li>
                     </ul>
                 </li>
-                <li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown">Fotos<span class="caret"></span></a>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Fotos<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/fotos">Fotos</a></li>
                         <li><a href="/memes">Memes</a></li>
@@ -61,7 +51,7 @@
 
 
 
-<div class="row" id="margen">
+<div class="col-md-12" id="margen">
     <div align="center" class="col-md-1" id="padfoot">
         <br>
     </div>
@@ -111,7 +101,7 @@
     </div>
 </div>
 
-<footer id="footer">
+<footer id="footer" class="col-md-12">
     <div>
         <div id="padfoot">
             <h4> Todos los derechos reservados © 1999 - 2019 / Facultad de Ingeniería/UNAM/ </h4>
