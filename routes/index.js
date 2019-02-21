@@ -22,6 +22,18 @@ router.get('/revistas', function(req, res, next) {
   res.render('revistas', {});
 });
 
+router.get('/revistas2019', function(req, res, next) {
+  res.render('revistas2019', {});
+});
+
+router.get('/revistas2018', function(req, res, next) {
+  res.render('revistas2018', {});
+});
+
+router.get('/revistas2017', function(req, res, next) {
+  res.render('revistas2017', {});
+});
+
 router.get('/tripticos', function(req, res, next) {
   res.render('tripticos', {});
 });
