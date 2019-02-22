@@ -115,8 +115,6 @@ sans-serif; }
 }
 
 
-/*indicadores*/
-
 
 /*controles izquierda derecha*/
 .nbs-flexisel-nav-left,
@@ -153,50 +151,20 @@ sans-serif; }
 }
 
 
-
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-    position: absolute;
-    top: 20%;
-}
-
-/* Style the icon bar links */
-.icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-}
-
-#snmig{
-    /*width: 70%;*/
-    padding-top: 5%;
-}
-
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-    background-color: #0298ad;
-}
-
-.facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.instagram {
-    background: violet;
-    color: white;
-}
+/*//caja de titulo*/
+.caja {
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      background: #889ccf;
+      margin: 0 0 25px;
+      overflow: hidden;
+      padding: 20px;
+      border-radius: 35px 0px 35px 0px;
+      -moz-border-radius: 35px 0px 35px 0px;
+      -webkit-border-radius: 35px 0px 35px 0px;
+      border: 2px solid #5878ca;}
 
 
-.issuu {
-    background: orangered;
-    color: white;
-}
-
-.youtube {
-    background: #bb0000;
-    color: white;
-}

@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Nigrowebhub2 node_modules" level="project" />
+    <orderEntry type="library" name="Nigrowebhub node_modules" level="project" />
   </component>
 </module>

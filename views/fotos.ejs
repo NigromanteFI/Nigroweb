@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nigromante - fotos</title>
-    <link rel="stylesheet" href="css/styles/estilos.css">
+    <link rel="stylesheet" href="css/styles/stylefotos.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!--PlugIns-->
     <script src="bower_components/angular/angular.js"></script>
@@ -13,7 +13,11 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>   <!-- "bootstrap": "3.3.7"-->
     <script src="controllers/PrincipalModule.js"></script>
-
+    <script src="js/fotos.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="js/modernizr.custom.17475.js"></script>
 </head>
 <body class="fondo">
 <header>
@@ -57,55 +61,78 @@
     <!--centro---------------------------------------------------------------------->
     <div align="center" class="col-md-10" id="padfoot">
         <!--carrucel----------------------------------------------------------------------------------------------------------->
-        <div class="col-md-12" align="center" id="margen">
-            <div class="carousel">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-                    <!-- Indicators -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                        </ol>
+            <div class="main">
+                <div class="gallery">
+                    <!-- Elastislide Carousel -->
+                    <ul id="carousel" class="elastislide-list">
+                        <li data-preview="images/large/4.jpg"><a href="#"><img src="img/01_Abril_2016.jpg" alt="image04" /></a></li>
+                        <li data-preview="images/large/5.jpg"><a href="#"><img src="img/03_Junio_2016.jpg" alt="image05" /></a></li>
+                        <li data-preview="images/large/6.jpg"><a href="#"><img src="img/04_Julio_2016.jpg" alt="image06" /></a></li>
+                        <li data-preview="images/large/7.jpg"><a href="#"><img src="img/05_Agosto_2016.jpg" alt="image07" /></a></li>
+                        <li data-preview="images/large/11.jpg"><a href="#"><img src="img/06_Septiembre_2016.jpg" alt="image11" /></a></li>
+                        <li data-preview="images/large/12.jpg"><a href="#"><img src="img/07_Octubre_2016.jpg" alt="image12" /></a></li>
+                        <li data-preview="images/large/13.jpg"><a href="#"><img src="img/08_Noviembre_2016.jpg" alt="image13" /></a></li>
+                        <li data-preview="images/large/14.jpg"><a href="#"><img src="img/09_Diciembre_2016.jpg" alt="image14" /></a></li>
+                        <li data-preview="images/large/15.jpg"><a href="#"><img src="img/10_Enero_2017.jpg" alt="image15" /></a></li>
+                        <li data-preview="images/large/16.jpg"><a href="#"><img src="img/11_Febrero_2017.jpg" alt="image16" /></a></li>
+                        <li data-preview="images/large/17.jpg"><a href="#"><img src="img/12_Marzo_2017.jpg" alt="image17" /></a></li>
+                        <li data-preview="images/large/18.jpg"><a href="#"><img src="img/13_Abril_2017.jpg" alt="image18" /></a></li>
+                        <li data-preview="images/large/19.jpg"><a href="#"><img src="img/14_Mayo_2017.jpg" alt="image19" /></a></li>
+                        <li data-preview="images/large/20.jpg"><a href="#"><img src="img/15_Junio_2017.jpg" alt="image20" /></a></li>
+                        <li data-preview="images/large/1.jpg"><a href="#"><img src="img/16_Julio_2017.jpg" alt="image01" /></a></li>
+                        <li data-preview="images/large/2.jpg"><a href="#"><img src="img/17_Agosto_2017.jpg" alt="image02" /></a></li>
+                        <li data-preview="images/large/3.jpg"><a href="#"><img src="img/18_Septiembre_2017.png" alt="image03" /></a></li>
+                        <li data-preview="images/large/8.jpg"><a href="#"><img src="img/19_Octubre_2017.png" alt="image08" /></a></li>
+                        <li data-preview="images/large/9.jpg"><a href="#"><img src="img/20_Noviembre_2017.png" alt="image09" /></a></li>
+                        <li data-preview="images/large/10.jpg"><a href="#"><img src="img/22_Enero_2018.png" alt="image10" /></a></li>
+                    </ul>
+                    <!-- End Elastislide Carousel -->
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive" src="../Img/carucel1.jpg" id="carucel1" alt="carucel1" >
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="../Img/carucel2.jpg" id="carucel2" alt="carucel2">
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="../Img/carucel3.jpg" id="carucel3" alt="carucel3" >
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="../Img/Bienvenido.jpg" id="carucel3" alt="carucel4" >
-                            </div>
-
-                            <div class="item">
-                                <img class="img-responsive" src="../Img/flor.png" id="carucel3" alt="carucel5" >
-                            </div>
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="nbs-flexisel-nav-left" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="nbs-flexisel-nav-right" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                    <div class="image-preview">
+                        <img id="preview" src="img/23_Febrero_2018.png" />
                     </div>
                 </div>
+
+
             </div>
         </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquerypp.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+        <script type="text/javascript">
+
+            // example how to integrate with a previewer
+
+            var current = 0,
+                    $preview = $( '#preview' ),
+                    $carouselEl = $( '#carousel' ),
+                    $carouselItems = $carouselEl.children(),
+                    carousel = $carouselEl.elastislide( {
+                        current : current,
+                        minItems : 4,
+                        onClick : function( el, pos, evt ) {
+
+                            changeImage( el, pos );
+                            evt.preventDefault();
+
+                        },
+                        onReady : function() {
+
+                            changeImage( $carouselItems.eq( current ), current );
+
+                        }
+                    } );
+
+            function changeImage( el, pos ) {
+
+                $preview.attr( 'src', el.data( 'preview' ) );
+                $carouselItems.removeClass( 'current-img' );
+                el.addClass( 'current-img' );
+                carousel.setCurrent( pos );
+
+            }
+
+        </script>
         <!--fin del carrucel-->
         <div>
             <h1>Fotos</h1>

@@ -18,8 +18,8 @@ router.get('/folletos', function(req, res, next) {
   res.render('folletos', {});
 });
 
-router.get('/revistas', function(req, res, next) {
-  res.render('revistas', {});
+router.get('/revistas2016', function(req, res, next) {
+  res.render('revistas2016', {});
 });
 
 router.get('/revistas2019', function(req, res, next) {
