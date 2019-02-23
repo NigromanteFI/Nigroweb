@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nigromante - Folletos</title>
-    <link rel="stylesheet" href="css/styles/estilos.css">
+    <title>Nigromante - Boletines</title>
+    <!--<link rel="stylesheet" href="css/styles/estilos.css">-->
+    <link rel="stylesheet" href="css/styles/estiloBoletines.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!--PlugIns-->
     <script src="bower_components/angular/angular.js"></script>
@@ -27,12 +28,11 @@
         </div>
         <div class="control-label" id="centrado">
             <ul class="nav navbar-nav">
-                <li class="active"><a>Principal</a></li>
+                <li><a href="/">Principal</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Publicaciones <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/revistas">Revistas</a></li>
-                        <li><a href="/folletos">Folletos</a></li>
-                        <li><a href="/tripticos">Tripticos</a></li>
+                        <li class="active"><a>Boletines</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Fotos<span class="caret"></span></a>
@@ -58,41 +58,70 @@
     <!--centro---------------------------------------------------------------------->
     <div align="center" class="col-md-10" id="padfoot">
         <div>
-            <h1>Folletos</h1>
+            <div class="caja">
+                <h2>Boletines</h2>
+            </div>
         </div>
-        <div>
+        <div class="col-md-12" id="margen">
             <div class="col-md-4">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
-                </div>
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2015">Boletines 2015</a>
             </div>
             <div class="col-md-4">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
-                </div>
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2014">Boletines 2014</a>
             </div>
             <div class="col-md-4">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
-                </div>
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2013">Boletines 2013</a>
+            </div>
+        </div>
+        <div class="col-md-12" id="margen">
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2012">Boletines 2012</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2011">Boletines 2011</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2010">Boletines 2010</a>
+            </div>
+        </div>
+        <div class="col-md-12" id="margen">
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2009">Boletines 2009</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2008">Boletines 2008</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-success btn-lg btn btn-block" href="/boletin2007">Boletines 2007</a>
+            </div>
+        </div>
+        <div class="col-md-12" id="margen">
+            <div class="col-md-4">
+                <a type="button" class="btn btn-success btn-lg btn-block" href="/boletin2006">Boletines 2006</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2005">Boletines 2005</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2004">Boletines 2004</a>
+            </div>
+        </div>
+        <div class="col-md-12" id="margen">
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2003">Boletines 2003</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2002">Boletines 2002</a>
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2001">Boletines 2001</a>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="/boletin2000">Boletines 2000</a>
             </div>
         </div>
     </div>

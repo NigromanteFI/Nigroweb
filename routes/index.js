@@ -14,8 +14,28 @@ router.get('/fotos', function(req, res, next) {
     res.render('fotos');
 });
 
-router.get('/folletos', function(req, res, next) {
-  res.render('folletos', {});
+router.get('/boletines', function(req, res, next) {
+  res.render('boletines', {});
+});
+
+router.get('/boletin2000', function(req, res, next) {
+  res.render('boletin2000', {});
+});
+
+router.get('/boletin2001', function(req, res, next) {
+  res.render('boletin2001', {});
+});
+
+router.get('/boletin2002', function(req, res, next) {
+  res.render('boletin2002', {});
+});
+
+router.get('/boletin2003', function(req, res, next) {
+  res.render('boletin2003', {});
+});
+
+router.get('/boletin2004', function(req, res, next) {
+  res.render('boletin2004', {});
 });
 
 router.get('/revistas2016', function(req, res, next) {
