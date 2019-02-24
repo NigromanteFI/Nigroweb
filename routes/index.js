@@ -38,6 +38,50 @@ router.get('/boletin2004', function(req, res, next) {
   res.render('boletin2004', {});
 });
 
+router.get('/boletin2005', function(req, res, next) {
+  res.render('boletin2005', {});
+});
+
+router.get('/boletin2006', function(req, res, next) {
+  res.render('boletin2006', {});
+});
+
+router.get('/boletin2007', function(req, res, next) {
+  res.render('boletin2007', {});
+});
+
+router.get('/boletin2008', function(req, res, next) {
+  res.render('boletin2008', {});
+});
+
+router.get('/boletin2009', function(req, res, next) {
+  res.render('boletin2009', {});
+});
+
+router.get('/boletin2010', function(req, res, next) {
+  res.render('boletin2010', {});
+});
+
+router.get('/boletin2011', function(req, res, next) {
+  res.render('boletin2011', {});
+});
+
+router.get('/boletin2012', function(req, res, next) {
+  res.render('boletin2012', {});
+});
+
+router.get('/boletin2013', function(req, res, next) {
+  res.render('boletin2013', {});
+});
+
+router.get('/boletin2014', function(req, res, next) {
+  res.render('boletin2014', {});
+});
+
+router.get('/boletin2015', function(req, res, next) {
+  res.render('boletin2015', {});
+});
+
 router.get('/revistas2016', function(req, res, next) {
   res.render('revistas2016', {});
 });
