@@ -1,3 +1,10 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover>.dropdown-menu {
+    display: block;
+}
+
 #margen{
     padding-bottom: 3%;
 }
