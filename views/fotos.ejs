@@ -59,130 +59,114 @@
     </div>
     <!--centro---------------------------------------------------------------------->
     <div align="center" class="col-md-10" id="padfoot">
-        <!--carrucel----------------------------------------------------------------------------------------------------------->
-            <div class="main">
-                <div class="gallery">
-                    <!-- Elastislide Carousel -->
-                    <ul id="carousel" class="elastislide-list">
-                        <li data-preview="images/large/4.jpg"><a href="#"><img src="img/01_Abril_2016.jpg" alt="image04" /></a></li>
-                        <li data-preview="images/large/5.jpg"><a href="#"><img src="img/03_Junio_2016.jpg" alt="image05" /></a></li>
-                        <li data-preview="images/large/6.jpg"><a href="#"><img src="img/04_Julio_2016.jpg" alt="image06" /></a></li>
-                        <li data-preview="images/large/7.jpg"><a href="#"><img src="img/05_Agosto_2016.jpg" alt="image07" /></a></li>
-                        <li data-preview="images/large/11.jpg"><a href="#"><img src="img/06_Septiembre_2016.jpg" alt="image11" /></a></li>
-                        <li data-preview="images/large/12.jpg"><a href="#"><img src="img/07_Octubre_2016.jpg" alt="image12" /></a></li>
-                        <li data-preview="images/large/13.jpg"><a href="#"><img src="img/08_Noviembre_2016.jpg" alt="image13" /></a></li>
-                        <li data-preview="images/large/14.jpg"><a href="#"><img src="img/09_Diciembre_2016.jpg" alt="image14" /></a></li>
-                        <li data-preview="images/large/15.jpg"><a href="#"><img src="img/10_Enero_2017.jpg" alt="image15" /></a></li>
-                        <li data-preview="images/large/16.jpg"><a href="#"><img src="img/11_Febrero_2017.jpg" alt="image16" /></a></li>
-                        <li data-preview="images/large/17.jpg"><a href="#"><img src="img/12_Marzo_2017.jpg" alt="image17" /></a></li>
-                        <li data-preview="images/large/18.jpg"><a href="#"><img src="img/13_Abril_2017.jpg" alt="image18" /></a></li>
-                        <li data-preview="images/large/19.jpg"><a href="#"><img src="img/14_Mayo_2017.jpg" alt="image19" /></a></li>
-                        <li data-preview="images/large/20.jpg"><a href="#"><img src="img/15_Junio_2017.jpg" alt="image20" /></a></li>
-                        <li data-preview="images/large/1.jpg"><a href="#"><img src="img/16_Julio_2017.jpg" alt="image01" /></a></li>
-                        <li data-preview="images/large/2.jpg"><a href="#"><img src="img/17_Agosto_2017.jpg" alt="image02" /></a></li>
-                        <li data-preview="images/large/3.jpg"><a href="#"><img src="img/18_Septiembre_2017.png" alt="image03" /></a></li>
-                        <li data-preview="images/large/8.jpg"><a href="#"><img src="img/19_Octubre_2017.png" alt="image08" /></a></li>
-                        <li data-preview="images/large/9.jpg"><a href="#"><img src="img/20_Noviembre_2017.png" alt="image09" /></a></li>
-                        <li data-preview="images/large/10.jpg"><a href="#"><img src="img/22_Enero_2018.png" alt="image10" /></a></li>
-                    </ul>
-                    <!-- End Elastislide Carousel -->
-
-                    <div class="image-preview">
-                        <img id="preview" src="img/23_Febrero_2018.png" />
-                    </div>
-                </div>
-
-
+        <div>
+            <div class="caja">Fotos</div>
+            </div>
+        <div class="containercarrusel3d">
+            <div id="carrusel3d">
+                <figure><img src="../Img/carucel1.jpg"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel2.jpg" height="116" width="186"></figure>
+                <figure><img src="../Img/carucel3.jpg"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel4.jpg"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel5.jpg"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel6.jpg"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel7.jpg" height="116" width="186"></figure>
+                <figure><img src="../Img/carucel8.png"  height="116" width="186"></figure>
+                <figure><img src="../Img/carucel9.jpg"  height="116" width="186"></figure>
             </div>
         </div>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquerypp.custom.js"></script>
-        <script type="text/javascript" src="js/jquery.elastislide.js"></script>
-        <script type="text/javascript">
 
-            // example how to integrate with a previewer
-
-            var current = 0,
-                    $preview = $( '#preview' ),
-                    $carouselEl = $( '#carousel' ),
-                    $carouselItems = $carouselEl.children(),
-                    carousel = $carouselEl.elastislide( {
-                        current : current,
-                        minItems : 4,
-                        onClick : function( el, pos, evt ) {
-
-                            changeImage( el, pos );
-                            evt.preventDefault();
-
-                        },
-                        onReady : function() {
-
-                            changeImage( $carouselItems.eq( current ), current );
-
-                        }
-                    } );
-
-            function changeImage( el, pos ) {
-
-                $preview.attr( 'src', el.data( 'preview' ) );
-                $carouselItems.removeClass( 'current-img' );
-                el.addClass( 'current-img' );
-                carousel.setCurrent( pos );
-
-            }
-
-        </script>
-        <!--fin del carrucel-->
-        <div>
-            <h1>Fotos</h1>
+        <div class="col-md-3">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto1.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: el nigro Rex y el cholo</p>
+                    <p>Autor: Alan Brito Delgado</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <div class="col-md-3">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
+        <div class="col-md-3">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto2.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: hermoso nigrorex</p>
+                    <p>Autor: SAM</p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto3.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: la chicas del nigromante</p>
+                    <p>Autor: Luis</p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
+        </div>
+        <div class="col-md-3">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto4.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: SODVI</p>
+                    <p>Autor: luis</p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div id="padding">
-                    <div>
-                        <img class="img-responsive" src="../Img/flor.png" id="carucel1" alt="carucel1" >
-                    </div>
-                    <div>
-                        <p>Titulo: flor</p>
-                        <p>Autor: Alguien</p>
-                    </div>
+        </div>
+
+        <div class="col-md-3" id="paddup">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto5.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: cuenta cuentos</p>
+                    <p>Autor: luis</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" id="paddup">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto6.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo:leyendas</p>
+                    <p>Autor: luis</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" id="paddup">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto7.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: cantante</p>
+                    <p>Autor: luis</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" id="paddup">
+            <div id="padding">
+                <div>
+                    <img class="img-responsive" src="../Img/foto8.jpg" id="fotos" alt="fotos" >
+                </div>
+                <div>
+                    <p>Titulo: conocenos</p>
+                    <p>Autor: Fert</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <div align="center" class="col-md-1" id="padfoot">
         <br>
     </div>
