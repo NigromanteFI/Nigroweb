@@ -122,7 +122,38 @@ router.get('/errorlog', function(req, res, next) {
   res.render('errorlog', {});
 });
 
+router.get('/Abril2016', function(req, res, next) {
+  res.render('Abril2016', {});
+});
 
+
+router.get('/Junio2016', function(req, res, next) {
+  res.render('Junio2016', {});
+});
+
+router.get('/Julio2016', function(req, res, next) {
+  res.render('Julio2016', {});
+});
+
+router.get('/Agostos2016', function(req, res, next) {
+  res.render('Agosto2016', {});
+});
+
+router.get('/Septiembre2016', function(req, res, next) {
+  res.render('Septiembre2016', {});
+});
+
+router.get('/Octubre2016', function(req, res, next) {
+  res.render('Octubre2016', {});
+});
+
+router.get('/Noviembre2016', function(req, res, next) {
+  res.render('Novimbre2016', {});
+});
+
+router.get('/Diciembre2016', function(req, res, next) {
+  res.render('Diciembre2016', {});
+});
 //para ver cookies
 router.get('/qwerty', function (req, res, next) {
   // Cookies normales

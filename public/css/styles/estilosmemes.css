@@ -1,0 +1,280 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover>.dropdown-menu {
+    display: block;
+}
+
+#margen{
+    padding-bottom: 3%;
+}
+
+#black{
+    background: #000000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#footer{
+    background: white;
+}
+
+#paddup {
+    padding-top: 5%;
+}
+#padfoot {
+    padding-top: 1%;
+}
+
+
+/* Container */
+.fondo{
+    background: rgba(2, 180, 201, 0.85);
+}
+
+.cabecera{
+    background: #000000;
+}
+/*Imagen de cabecera*/
+
+.issuuembed
+
+{
+    width:650px;
+    height: 500px;
+}
+
+#fondoimg{
+    background: white;
+}
+
+#padding{
+    background: white;
+    padding: 1%;
+}
+
+#logo
+{
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+
+}
+#parquita
+{
+    width:50% ;
+    height:150px;
+    border-radius: 50%;
+
+}
+
+#escudos
+{
+    width:100% ;
+    height:100px;
+
+
+}
+
+
+
+
+#menu {
+    background: #000000;
+    padding: 5px 15px;
+}
+
+#menu li {  display: inline-block;
+    list-style: none;
+    padding: 5px;  font:
+bold 14px verdana,
+sans-serif; }
+
+/*carusel*/
+
+
+#carucel1
+{
+    width: 100%;
+    height: 400px;
+
+}
+
+#carucel2
+{
+    width: 100%;
+    height: 400px;
+}
+
+#carucel3
+{
+    width: 100%;
+    height: 400px;
+
+}
+
+#carucel4
+{
+    width: 100%;
+    height: 400px;
+
+}
+
+#carucel5
+{
+    width: 100%;
+    height: 400px;
+
+}
+
+#fondofoto{
+    background: gray;
+}
+
+
+
+/*controles izquierda derecha*/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    padding:5px 10px;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top: 50%;
+    transform: translateY(-40%);
+    background: rgba(146, 146, 146, 0.50);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.4);
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+}
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;
+}
+
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.4;
+}
+
+
+/*//caja de titulo*/
+.caja {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #000000;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px ridge;}
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoInstagram:hover {
+    background-color: #a317ff;
+}
+.social-network a.icoYoutube:hover {
+    background-color:#ff0000;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoYoutube:hover i,
+.social-network a.icoInstagram:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color: #151515;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+    background-color:gray;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+a {
+    background-color: #151515;
+}
+
+
+.table {
+    border: 1px solid #000;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: 1px solid #000;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ffffff;
+}
