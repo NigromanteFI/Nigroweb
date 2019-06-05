@@ -10,6 +10,4 @@ app.controller('Saludos', function($scope, $http) {
         $scope.Id = response.data.Id;
     });
 
-
-
 });

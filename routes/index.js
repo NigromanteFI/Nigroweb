@@ -154,6 +154,10 @@ router.get('/Noviembre2016', function(req, res, next) {
 router.get('/Diciembre2016', function(req, res, next) {
   res.render('Diciembre2016', {});
 });
+
+router.get('/pruebasam', function(req, res, next) {
+  res.render('pruebasam', {});
+});
 //para ver cookies
 router.get('/qwerty', function (req, res, next) {
   // Cookies normales

@@ -1,0 +1,28 @@
+
+.scroll-img {
+  border: 5px solid #000000;
+  width: 1070px;
+  height: 160px;
+  overflow: hidden;
+  padding-inline-start: 0px;
+  font-size: 0;
+}
+.scroll-img ul {
+  width: 700px;
+  height: 600px;
+  padding-inline-start: 0px;
+  margin: 0;
+}
+.scroll-img ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+#demo5.scroll-img ul {
+  width: 1500px;
+}
+#demo5-btn {
+  width: 680px;
+  padding-top: 10px;
+}
+
